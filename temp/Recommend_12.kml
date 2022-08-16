@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Recommend_12.kml</name>
+	<open>1</open>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Многоугольник без названия</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						69.44236674498461,41.18895802039653,0 69.4423390042443,41.18889960966089,0 69.44234396407484,41.18878451886145,0 69.44234397015745,41.18878074537719,0 69.44240152604372,41.18868257150444,0 69.44248175675028,41.1886372322807,0 69.44249429860668,41.18863156537522,0 69.44259718009249,41.18862970796565,0 69.44261223341975,41.18862971353263,0 69.4426247771835,41.18862971826861,0 69.44263732024069,41.18862972291191,0 69.44280286397903,41.18866559588744,0 69.44281289797617,41.1886674821102,0 69.44296087431947,41.188725999532,0 69.44305361000659,41.18879583984574,0 69.44305860693005,41.1887996146424,0 69.44306335059916,41.18886750948934,0 69.44303052805694,41.18894473021896,0 69.4429481174766,41.18902027822049,0 69.44294061758913,41.18902217893805,0 69.44293305790274,41.18902780245811,0 69.4427976201311,41.18908221511563,0 69.44279511381872,41.18908220818502,0 69.44265240381195,41.18906547128624,0 69.44264989732946,41.18906547878579,0 69.44251696690867,41.18903927409155,0 69.44242181767454,41.18899199984613,0 69.44236674498461,41.18895802039653,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Многоугольник без названия</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						69.44190331262479,41.19009520541616,0 69.44197382068216,41.1898680153591,0 69.44197382075684,41.18986589441003,0 69.4419766364979,41.18985529279584,0 69.44205265402016,41.18967734050084,0 69.44206674788833,41.18966248444977,0 69.44208084719757,41.18964762278119,0 69.44209212771383,41.18963700351521,0 69.44220194099604,41.18951199393931,0 69.4423374358219,41.1894268979341,0 69.44257069838146,41.18937436042133,0 69.44273971268206,41.18938490683647,0 69.44286484014174,41.18942582757202,0 69.44291523339318,41.1894956934637,0 69.44286764448785,41.18964369465417,0 69.44278477017309,41.18978115483343,0 69.44270959072036,41.18986175301711,0 69.44252605446702,41.19000165542207,0 69.4425232702104,41.19000590885344,0 69.44251204436647,41.190012288638,0 69.44236301042318,41.19013131869762,0 69.44217401524077,41.19025008589972,0 69.44210354159877,41.19029048512741,0 69.44203022188549,41.19032238044493,0 69.4419540698716,41.19031804895332,0 69.4418864611809,41.19024765831625,0 69.44190331262479,41.19009520541616,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
