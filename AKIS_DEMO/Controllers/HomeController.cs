@@ -76,7 +76,7 @@ namespace WebApplication2.Controllers
             if (type == "SAVI")
                 indexType = IndexType.SAVI;
 
-            if(type == "NDRE")
+            if (type == "NDRE")
                 indexType = IndexType.NDRE;
 
             if (type == "GNDVI")
@@ -90,7 +90,7 @@ namespace WebApplication2.Controllers
 
             if (type == "CIGREEN")
                 indexType = IndexType.CIGREEN;
-           
+
             if (type == "RECL")
                 indexType = IndexType.RECL;
 
@@ -154,7 +154,7 @@ namespace WebApplication2.Controllers
             var response = GetMeteoResponse();
             return Json(response);
         }
-       
+
         [HttpGet]
         //public async  Task<IActionResult> GetRubiconData(string id)
         //{
@@ -193,11 +193,11 @@ namespace WebApplication2.Controllers
 
         //        throw;
         //    }
-            
+
 
         //}
 
-        private string GetMeteoResponse() 
+        private string GetMeteoResponse()
         {
             var username = "chirchiq";
             var password = "R?J=*R4y*KeQBy;C";
@@ -205,7 +205,7 @@ namespace WebApplication2.Controllers
 
             HttpClientHandler httpClientHandler = new HttpClientHandler()
             {
-                Credentials = new NetworkCredential(username, password ),
+                Credentials = new NetworkCredential(username, password),
             };
 
             var client = new HttpClient(httpClientHandler);
@@ -285,7 +285,7 @@ namespace WebApplication2.Controllers
                         if (fileName.Contains("_RECL"))
                             type = IndexType.RECL;
                     }
-                    
+
                     var lines = System.IO.File.ReadAllLines(csvFile);
 
                     var dates = IndexRecord.GetDates(lines[0]);
@@ -306,7 +306,7 @@ namespace WebApplication2.Controllers
                 if (type == IndexType.NDVI)
                     return satNDVI[dataIndex];
 
-             
+
 
                 if (type == IndexType.EVI)
                     return satEVI[dataIndex];
@@ -346,16 +346,16 @@ namespace WebApplication2.Controllers
                 if (type == IndexType.RECL)
                     return uavRECL[dataIndex];
             }
-                return 0;
+            return 0;
         }
 
         int[] satNDVI = new int[] { 1270276, 1270277, 1270280, 1270281, 1270282, 1270283, 1270285, 1270285, 1270286, 1270287, 1270288, 1270289, 1270290, 1270291, 1270292, 1270292, 1270293, 1270294, 1270295, 1270296, 1270297 };
         int[] satSAVI = new int[] { 1270326, 1270327, 1270328, 1270329, 1270330, 1270331, 1270332, 1270332, 1270333, 1270335, 1270336, 1270337, 1270339, 1270340, 1270341, 1270341, 1270342, 1270343, 1270344, 1270345, 1270346 };
-        int[] satEVI = new int[]  { 1270401, 1270403, 1270404, 1270405, 1270406, 1270407, 1270408, 1270408, 1270409, 1270411, 1270412, 1270413, 1270414, 1270415, 1270416, 1270416, 1270417, 1270418, 1270419, 1270420, 1270421 };
- 
+        int[] satEVI = new int[] { 1270401, 1270403, 1270404, 1270405, 1270406, 1270407, 1270408, 1270408, 1270409, 1270411, 1270412, 1270413, 1270414, 1270415, 1270416, 1270416, 1270417, 1270418, 1270419, 1270420, 1270421 };
+
         int[] satNDMI = new int[] { 1270675, 1270676, 1270678, 1270679, 1270710, 1270681, 1270683, 1270683, 1270685, 1270686, 1270688, 1270689, 1270690, 1270691, 1270692, 1270693, 1270694, 1270696, 1270697, 1270699, 1270699, 1270700 };
-        int[] satNDWI = new int[] { 1270527, 1270528, 1270530, 1270531, 1270533, 1270534, 1270535, 1270536, 1270536, 1270537, 1270539, 1270540, 1270542, 1270543, 1270544, 1270544, 1270545, 1270546, 1270547, 1270548, 1270549 };        
-    
+        int[] satNDWI = new int[] { 1270527, 1270528, 1270530, 1270531, 1270533, 1270534, 1270535, 1270536, 1270536, 1270537, 1270539, 1270540, 1270542, 1270543, 1270544, 1270544, 1270545, 1270546, 1270547, 1270548, 1270549 };
+
         int[] uavNDVI = new int[] { 1206699 };
         int[] uavNDRE = new int[] { 1206697 };
         int[] uavGNDVI = new int[] { 1206696 };
