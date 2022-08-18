@@ -126,8 +126,6 @@ namespace WebApplication2.Controllers
                     irrResult.Add(1);
                 else if (indexRecord.Date == "15.6.2022")
                     irrResult.Add(1);
-                else if (indexRecord.Date == "4.7.2022")
-                    irrResult.Add(1);
                 else
                     irrResult.Add(0);
             }
