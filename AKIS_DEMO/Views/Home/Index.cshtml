@@ -2295,29 +2295,35 @@
 
         if (visibleSource == "Satellite") {
 
-            if (visibleIndex == "NDVI")
+            if (visibleIndex == "NDVI") {
                 $('#legand_image').attr('src', '/images/ndvi_legend.png');
+                $("#index_header_panel").css("height", "200px");
+                $("#index_header_panel").css("width", "260px");
 
-            if (visibleIndex == "CLRE")
-                $('#legand_image').attr('src', '/images/clre_legend.png');
+            }
 
-            if (visibleIndex == "MRESR")
-                $('#legand_image').attr('src', '/images/mresr_legend.png');
-
-            if (visibleIndex == "NDMI")
+            if (visibleIndex == "NDMI") {
                 $('#legand_image').attr('src', '/images/ndmi_legend.png');
+                $("#index_header_panel").css("height", "200px");
+                $("#index_header_panel").css("width", "350px");
+            }
 
-            if (visibleIndex == "EVI")
+            if (visibleIndex == "EVI") {
                 $('#legand_image').attr('src', '/images/evi_legend.png');
+                $("#index_header_panel").css("height", "90px");
+                $("#index_header_panel").css("width", "260px");
+            }
 
-            if (visibleIndex == "RTVI")
-                $('#legand_image').attr('src', '/images/rtvi_legend.png');
-
-            if (visibleIndex == "NDWI")
+            if (visibleIndex == "NDWI") {
                 $('#legand_image').attr('src', '/images/ndwi_legend.png');
-
-            if (visibleIndex == "SAVI")
-                $('#legand_image').attr('src', '/images/savi_legend.png');
+                $("#index_header_panel").css("height", "160px");
+                $("#index_header_panel").css("width", "260px");
+            }
+            if (visibleIndex == "SAVI") {
+                $('#legand_image').attr('src', '/images/ndvi_legend.png');
+                $("#index_header_panel").css("height", "200px");
+                $("#index_header_panel").css("width", "260px");
+            }
         }
         else {
 
