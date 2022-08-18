@@ -153,48 +153,7 @@ namespace WebApplication2.Controllers
             return Json(response);
         }
        
-        [HttpGet]
-        //public async  Task<IActionResult> GetRubiconData(string id)
-        //{
-        //    try
-        //    {
-        //        var url = "https://map.agro.uz/akis/water/get_last?type=rubicon&rubicon_id=" + id;
-
-
-        //        var httpClientHandler = new HttpClientHandler();
-        //        httpClientHandler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => { return true; };
-        //        ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, errors) =>
-        //        {
-        //            // local dev, just approve all certs
-        //            if (development) return true;
-        //            return errors == SslPolicyErrors.None;
-        //        };
-        //        using (var httpClient = new HttpClient(httpClientHandler))
-        //        {
-        //            httpClient.Timeout = TimeSpan.FromMinutes(5);
-
-        //            HttpResponseMessage response = await httpClient.GetAsync(url);
-        //            var statusCode = response.EnsureSuccessStatusCode();
-        //            if (response.StatusCode != HttpStatusCode.OK)
-        //            {
-        //                throw new Exception(response.Content.ReadAsStringAsync().Result);
-        //            }
-
-        //            var resultHttp = response.Content.ReadAsStringAsync().Result;
-
-        //            return Json(resultHttp);
-
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-
-        //        throw;
-        //    }
-            
-
-        //}
-
+       
         private string GetMeteoResponse() 
         {
             var username = "chirchiq";

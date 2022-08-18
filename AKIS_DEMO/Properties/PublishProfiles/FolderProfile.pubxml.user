@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Projeler\AKIS_DEMO\AKIS_DEMO\bin\Debug\netcoreapp2.1\publish\</_PublishTargetUrl>
+    <History>True|2022-08-10T10:39:11.8717542Z;True|2022-08-09T18:43:19.5617948+05:00;True|2022-08-09T18:33:25.9499101+05:00;True|2022-07-14T22:17:44.2980362+05:00;True|2022-07-13T03:38:04.6275226+05:00;True|2022-07-12T15:07:19.0016724+05:00;True|2022-07-12T14:45:35.2129892+05:00;True|2022-07-12T14:44:38.2106750+05:00;True|2022-07-08T14:56:04.7371715+05:00;</History>
+  </PropertyGroup>
+</Project>
