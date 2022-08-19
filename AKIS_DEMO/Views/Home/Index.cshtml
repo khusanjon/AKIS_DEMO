@@ -414,13 +414,10 @@
                                 <button type="button" class="btn btn-dark"> <i class="icon-satellite mr-2"></i>Спутник</button>
                                 <div class="btn-group btn-group-toggle btn-group-sm" data-toggle="satButtons">
                                     <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','NDVI')">NDVI</button>
+                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','SAVI')">SAVI</button>
+                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','EVI')">EVI</button>
                                     <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','NDMI')">NDMI</button>
                                     <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','NDWI')">NDWI</button>
-                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','SAVI')">SAVI</button>
-                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','CLRE')">CLRE</button>
-                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','EVI')">EVI</button>
-                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','MRESR')">MRESR</button>
-                                    <button type="button" class="btn btn-primary btn-dark" onclick="setGraph('Satellite','RTVI')">RTVI</button>
                                 </div>
                             </div>
                             <div class="col-2" style="text-align:right;">
@@ -2295,29 +2292,35 @@
 
         if (visibleSource == "Satellite") {
 
-            if (visibleIndex == "NDVI")
+            if (visibleIndex == "NDVI") {
                 $('#legand_image').attr('src', '/images/ndvi_legend.png');
+                $("#index_header_panel").css("height", "200px");
+                $("#index_header_panel").css("width", "260px");
 
-            if (visibleIndex == "CLRE")
-                $('#legand_image').attr('src', '/images/clre_legend.png');
+            }
 
-            if (visibleIndex == "MRESR")
-                $('#legand_image').attr('src', '/images/mresr_legend.png');
-
-            if (visibleIndex == "NDMI")
+            if (visibleIndex == "NDMI") {
                 $('#legand_image').attr('src', '/images/ndmi_legend.png');
+                $("#index_header_panel").css("height", "200px");
+                $("#index_header_panel").css("width", "350px");
+            }
 
-            if (visibleIndex == "EVI")
+            if (visibleIndex == "EVI") {
                 $('#legand_image').attr('src', '/images/evi_legend.png');
+                $("#index_header_panel").css("height", "90px");
+                $("#index_header_panel").css("width", "260px");
+            }
 
-            if (visibleIndex == "RTVI")
-                $('#legand_image').attr('src', '/images/rtvi_legend.png');
-
-            if (visibleIndex == "NDWI")
+            if (visibleIndex == "NDWI") {
                 $('#legand_image').attr('src', '/images/ndwi_legend.png');
-
-            if (visibleIndex == "SAVI")
-                $('#legand_image').attr('src', '/images/savi_legend.png');
+                $("#index_header_panel").css("height", "160px");
+                $("#index_header_panel").css("width", "260px");
+            }
+            if (visibleIndex == "SAVI") {
+                $('#legand_image').attr('src', '/images/ndvi_legend.png');
+                $("#index_header_panel").css("height", "200px");
+                $("#index_header_panel").css("width", "260px");
+            }
         }
         else {
 
@@ -2482,7 +2485,7 @@
 
         if (visibleIndex == "NDWI") {
             $("#index_info_header").text("Normalized Difference Water Index (NDWI)");
-            $("#index_info_body").html("Метод нормализованного разностного водного индекса(NDWI) представляет собой индекс для определения границ и мониторинга изменений содержания в поверхностных водах.Он рассчитывается с использованием NIR и зеленых полос.</br></br>NDWI = (Зеленый - NIR) / (Зеленый + NIR)");
+            $("#index_info_body").html("Вычисление NDWI является варьируется от -1 до +1 и зависит от содержания воды в листьях, а также от типа растительности и покрова. Высокие значения NDWI (синий цвет) соответствуют высокому содержанию воды в растительности и высокой доли растительного покрова.  Низкие значения NDWI (белый цвет) соответствуют низкому содержанию влаги в растительности и низкому покрытию доли растительности. В период водного стресса NDWI будет уменьшаться");
         }
 
         if (visibleIndex == "SAVI") {
