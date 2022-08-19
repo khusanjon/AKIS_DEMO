@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeler\\BEPRO.AKIS\\AKIS_DEMO\\AKIS_DEMO.csproj": {}
+    "D:\\AKIS_DEMO\\AKIS_DEMO\\AKIS_DEMO.csproj": {}
   },
   "projects": {
-    "D:\\Projeler\\BEPRO.AKIS\\AKIS_DEMO\\AKIS_DEMO.csproj": {
+    "D:\\AKIS_DEMO\\AKIS_DEMO\\AKIS_DEMO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\BEPRO.AKIS\\AKIS_DEMO\\AKIS_DEMO.csproj",
+        "projectUniqueName": "D:\\AKIS_DEMO\\AKIS_DEMO\\AKIS_DEMO.csproj",
         "projectName": "AKIS_DEMO",
-        "projectPath": "D:\\Projeler\\BEPRO.AKIS\\AKIS_DEMO\\AKIS_DEMO.csproj",
-        "packagesPath": "C:\\Users\\Erdogdum\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\BEPRO.AKIS\\AKIS_DEMO\\obj\\",
+        "projectPath": "D:\\AKIS_DEMO\\AKIS_DEMO\\AKIS_DEMO.csproj",
+        "packagesPath": "C:\\Users\\amiro\\.nuget\\packages\\",
+        "outputPath": "D:\\AKIS_DEMO\\AKIS_DEMO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Erdogdum\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\amiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -84,7 +81,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
