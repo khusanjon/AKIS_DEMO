@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,6 +8,7 @@ namespace WebApplication2.Models
 {
     public class IndexModel
     {
+        
         public List<string> IndexDates { get; set; }
 
         public List<double> IndexData { get; set; }
@@ -23,6 +25,8 @@ namespace WebApplication2.Models
     
     public class IndexRecord
     {
+        static CultureInfo usCult = new CultureInfo("en-US");
+
         public int Id { get; set; }
         public IndexSource Source { get; set; }
         public string Date { get; set; }
@@ -43,7 +47,7 @@ namespace WebApplication2.Models
                 item.Source = source;
                 item.Type = type;
                 item.Date = dates[i-1];
-                item.Value = Convert.ToDouble(values[i]);
+                item.Value = Convert.ToDouble(values[i], usCult);
                 result.Add(item);
             }
             return result;
