@@ -8,9 +8,17 @@
 
   <ItemGroup>
     <Compile Remove="3d\**" />
+    <Compile Remove="Scripts\**" />
+    <Compile Remove="wwwroot\Scripts\**" />
     <Content Remove="3d\**" />
+    <Content Remove="Scripts\**" />
+    <Content Remove="wwwroot\Scripts\**" />
     <EmbeddedResource Remove="3d\**" />
+    <EmbeddedResource Remove="Scripts\**" />
+    <EmbeddedResource Remove="wwwroot\Scripts\**" />
     <None Remove="3d\**" />
+    <None Remove="Scripts\**" />
+    <None Remove="wwwroot\Scripts\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,11 +26,6 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.jQuery.Unobtrusive.Ajax" Version="3.2.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Scripts\" />
-    <Folder Include="wwwroot\Scripts\" />
   </ItemGroup>
 
   <ItemGroup>
