@@ -6,169 +6,219 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поле №3</title>
     <style>
-      table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      
-      .zona td, th {
-        border: 1px solid #000;
-        text-align: left;
-        padding: 3px;
-      } 
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
 
-     td{
-        text-align: center;
-      } 
-      
-      header {
-        text-align: center;
-      }
+        .zona td, th {
+            border: 1px solid #000;
+            text-align: left;
+            padding: 3px;
+        }
 
-      .latter {
-        color: red;
-      }
-           
-      </style>
+        td {
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .latter {
+            color: red;
+        }
+    </style>
+    <script type="text/javascript">
+    </script>
 </head>
 <body>
     <div>
-        <p>Дата съемки дроном: 15 июля 2022 года</p>
-        <div>
-            <p><b><u>Оценка текущей ситуации</u></b> <br>
-              Тип культуры: соя. <br>
-              Сорт: Oltin vodij (Олтин водий), скоро-спелый <br>
-              Площадь поля: 0,1 Га <br>
-              Фаза вегетации: R3, R4 (образование бобов) <br>
-             </p>
+        <!--<p style="text-align:right;">Дата съемки дроном: 15 июля 2022 года</p>-->
 
-            <table class="zona">
-                <tr>
-                  <th></th>
-                  <th >Однолетнее</th>
-                  <th>Многолетнее</th>
-                  <th>Деревья</th>
-                </tr>
-                <tr>
-                  <td rowspan = "9">Этап вегетации</td>
-                  <td >посадка</td>
-                  <td></td>
-                  <td></td>                  
-                </tr>
-                <tr>                  
-                  <td >прорастание</td>
-                  <td>всходы</td>
-                  <td>сокодвижение</td>
-                </tr>
-                <tr>
-                  <td >набухание почек - начало бутонизации</td>
-                  <td>набухание почек - начало бутонизации</td>
-                  <td>набухание почек - начало бутонизации</td>
-                </tr>
-                <tr>
-                  <td>бутонизация</td>
-                  <td>бутонизация</td>
-                  <td>бутонизация</td>
-                </tr>
-                <tr>
-                  <td >начало цветения</td>
-                  <td>начало цветения</td>
-                  <td>начало цветения</td>
-                </tr>
-                <tr>
-                  <td>массовое цветение</td>
-                  <td>массовое цветение</td>
-                  <td>массовое цветение</td>
-                </tr>
-                <tr>
-                  <td style="background-color: rgb(116, 231, 116);">начало плодоношения</td>
-                  <td>начало плодоношения</td>
-                  <td>начало плодоношения</td>
-                </tr>                
-                <tr>
-                  <td>массовое плодоношение - конец вегетации</td>
-                  <td>массовое плодоношение - конец вегетации</td>
-                  <td>массовое плодоношение - конец вегетации</td>
-                </tr>                
-                <tr>
-                  <td>сбор урожая</td> 
-                  <td>сбор урожая</td>
-                  <td>сбор урожая</td>
-                </tr>
-             </table>
+        <div class="row">
+            <hr />
+            <div class="col col-9" style="border: solid 1px lightgray; border-radius: 10px; padding: 5px;">
+                <h6><b>Оценка текущей ситуации</b></h6>
+                <ul class="list-group border-x-0 rounded-0;" style="border:0px;">
+                    <li class="list-group-item">
+                        <span class="font-weight-semibold" style="width: 150px;">Название культуры</span>
+                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">Соя</div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <span class="font-weight-semibold" style="width: 150px;">Сорт</span>
+                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">Oltin vodij (Олтин водий), скоро-спелый</div>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="font-weight-semibold" style="width: 150px;">Площадь поля</span>
+                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">0,1 Га</div>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="font-weight-semibold" style="width: 150px; ">Фаза вегетации</span>
+                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">R3, R4 (образование бобов)</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col col-3">
+                <div style="border: solid 1px lightgray; border-radius: 10px; padding: 5px;">
+                    <h6>Критерий оценки густоты растений</h6>
+
+                    <span style="text-align:left;" class="badge w-100">5- отлично</span>
+                    <span style="text-align:left;" class="badge badge-success w-100">4- хорошо</span>
+                    <span style="text-align:left;" class="badge w-100">3- удовлетворительно</span>
+                    <span style="text-align:left;" class="badge w-100">2- плохо</span>
+                    <span style="text-align:left;" class="badge w-100">1- очень плохо</span>
+                </div>
+
+            </div>
+            <hr />
         </div>
 
-        <p>1. Густота (интенсивность посева): В северной части поля <span class="letter">(Рис.6)</span> культура не развивается, и местами погибла, проблемная площадь составляет около 0,07 Га или 7% от площади поля <span class="letter">(Зона А).</span>  Причина этого связана с содержанием калия и фосфора в соответствующих местах, а также с механическим воздействием на данные участки поля – прохождение наземной техники.</p>
-        <table>
-          <tr>
-            <td rowspan = "6">Критерий оценки густоты растений</td>
-            <th>Балл, оценка</th>
-          </tr>
-          <tr>
-            <td>5-отлично</td>
-          </tr>
-          <tr>
-            <td style="background-color: rgb(116, 231, 116);">4-хорошо</td>
-          </tr>
-          <tr>
-            <td>3-удовлетворительно</td>
-          </tr>
-          <tr>
-            <td>2-плохо</td>
-          </tr>
-          <tr>
-            <td>1-очень плохо</td>
-          </tr>
-        </table>
+        <div class="row" style="margin-top:1vw;">
+            <div class="col col-12" style="border:solid 1px lightgray; border-radius:5px;">
+                <div class="flex-parent rounded-0">
+                    <div class="input-flex-container">
+                        <div class="input">
+                            <span data-year="1" data-info="посадка"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="2" data-info="прорастание"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="3" data-info="начало бутонизации"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="4" data-info="бутонизация"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="5" data-info="начало цветения"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="6" data-info="массовое цветение"></span>
+                        </div>
+                        <div class="input active">
+                            <span data-year="7" data-info="начало плодоношения"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="8" data-info="конец вегетации"></span>
+                        </div>
+                        <div class="input">
+                            <span data-year="9" data-info="сбор урожая"></span>
+                        </div>
+                    </div>
 
-      <p>2. <b>Проплешины:</b>  отсутствуют. <br>
-        3. По всей площади поля наблюдается дефицит калия 20% и фосфора 15% от нормы. <br>
-        4. В северной части поля <span class="letter">(Рис.7)</span> на площади 0,005 Га или 5% от площади поля  <span class="letter">(Зона С)</span> присутствуют небольшие зоны с пониженным содержанием влаги, что говорит о том, что посевы сильно обезвожены (засохли) и погибли. <br>
-        5. На поле присутствуют единичные сорные растения, которые не влияют на развитие сои. <br>
-        6. При анализе результатов воздушного мониторинга выявлено, что посевы находятся в удовлетворительном состоянии, в фенологической фазе, соответствующей сорту и дате посева, болезней и вредителей обнаружено не было. <br>
-        <br>        
-      </p>
+                </div>
+            </div>
+        </div>
 
-      <table>
-        <tr>
-          <td rowspan = "6">Состояние посевов</td>
-          <th>Балл, оценка</th>
-        </tr>
-        <tr>
-          <td>5-отлично</td>
-        </tr>
-        <tr>
-          <td>4-хорошо</td>
-        </tr>
-        <tr>
-          <td style="background-color: rgb(116, 231, 116);">3-удовлетворительно</td>
-        </tr>
-        <tr>
-          <td>2-плохо</td>
-        </tr>
-        <tr>
-          <td>1-очень плохо</td>
-        </tr>
-      </table>
-      
-      <p><b><u>Рекомендации:</u></b> <br>
-        1. До сбора урожая не проводить мероприятий по внесению калия, фосфора, азота и средств по борьбе с сорняками. <br>
-        2. После сбора урожая провести мониторинг поля для составления карты дифференцированного внесения удобрений для подготовки почвы к следующему посеву. <br>
-        Процент разницы между минимальным и максимальным количеством внесенного азота и фосфора будет составлять около 10%, калия – 30%. <br>
-        3. Фосфор, калий и азот необходимо внести под зяблевую вспашку весной.  <br>
-        4. <span class="letter">Возможная дата сбора урожая:</span> 7-10 августа. <br>
-        <br>
-      </p>
-      <table>
+        <div class="row" style="margin-top:1vw;">
+            <div class="col col-9" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px;">
+                <h6><b>Проплешины</b></h6>
 
-        <tr></tr>
-        <tr>
-         <td><img src="../images/zona_3A.png" alt="Зона A"></td>
-         <td><img src="../images/zona_3C.png" alt="Зона C"></td>
-        </tr>
-       </table>
+                <div class="row" style="margin-top:1vw;">
+                    <div class="col col-1"><b>1.</b></div>
+                    <div class="col col-11" style="text-align:justify;">
+                        Густота (интенсивность посева): В северной части поля (Рис.6) культура не развивается, и местами погибла, проблемная площадь составляет около 0,007 Га или 7% от площади поля (Зона А).  Это связано с особенностями состава почвы в соответствующих местах, а также с механическим воздействием на данные участки поля (прохождение наземной техники).
+                        На поле присутствует незначительная равномерное распределение посевов.  
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:1vw;">
+                    <div class="col col-1"><b>2.</b></div>
+                    <div class="col col-11" style="text-align:justify;">
+                        Проплешины: отсутствуют.
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:1vw;">
+                    <div class="col col-1"><b>3.</b></div>
+                    <div class="col col-11" style="text-align:justify;">
+                        По всей площади поля наблюдается дефицит калия 20% и фосфора 15% от нормы. 
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:1vw;">
+                    <div class="col col-1"><b>4.</b></div>
+                    <div class="col col-11" style="text-align:justify;">
+                        В северной части поля (Рис.7) на площади 0,005 Га или 5% от площади поля  (Зона С) присутствуют небольшие зоны с пониженным содержанием влаги, что говорит о том, что посевы сильно обезвожены (засохли) и погибли.
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:1vw;">
+                    <div class="col col-1"><b>5.</b></div>
+                    <div class="col col-11" style="text-align:justify;">
+                        На поле присутствуют единичные сорные растения, которые не влияют на развитие сои.
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:1vw;">
+                    <div class="col col-1"><b>6.</b></div>
+                    <div class="col col-11" style="text-align:justify;">
+                        При анализе результатов воздушного мониторинга выявлено, что посевы находятся в удовлетворительном состоянии, в фенологической фазе, соответствующей сорту и дате посева, болезней и вредителей обнаружено не было.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-3">
+                <div style="border: solid 1px lightgray; border-radius: 10px; padding: 5px; height: 410px;">
+                    <h6>Состояние посевов</h6>
+
+                    <span style="text-align:left;" class="badge w-100">5- отлично</span>
+                    <span style="text-align:left;" class="badge w-100">4- хорошо</span>
+                    <span style="text-align:left;" class="badge badge-success w-100">3- удовлетворительно</span>
+                    <span style="text-align:left;" class="badge w-100">2- плохо</span>
+                    <span style="text-align:left;" class="badge w-100">1- очень плохо</span>
+                </div>
+
+            </div>
+            <hr />            
+        </div>
+
+        <div class="row" style="margin-top:1vw;">
+
+            <div class="col col-12" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px; margin-left:2vw;">  
+              <h6><b>Индексы </b></h6>
+              <p> Дата съемки дроном: 15 июля 2022 года</p>
+              <div class="row" style="">
+                  <div class="col col-6" style="text-align:center; padding: 20px 70px;" > <img src="../images/zona_3A.png" alt="Зона A" style="width:90%;">Рис. 1</div>
+                  <div class="col col-6" style="text-align:center; padding: 20px 70px;"> <img src="../images/zona_3C.png" alt="Зона C" style="width:90%;">Рис. 2</div>
+              </div> 
+              
+        </div> 
+            
+        </div>
+
+        <div class="row" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px; margin-top:1vw;">
+
+            <div class="col col-12">
+                <h6><b>Рекомендации</b></h6>
+
+
+                <div class="row">
+                    <div class="col col-3"><b>1.</b></div>
+                    <div class="col col-9">До сбора урожая не проводить мероприятий по внесению калия, фосфора, азота и средств по борьбе с сорняками. </div>
+                </div>
+                <div class="row">
+
+                    <div class="col col-3"><b>2.</b> </div>
+                    <div class="col col-9">После сбора урожая провести мониторинг поля для составления карты дифференцированного внесения удобрений для подготовки почвы к следующему посеву. 
+                      Процент разницы между минимальным и максимальным количеством внесенного азота и фосфора будет составлять около 10%, калия – 30%. </div>
+                </div>
+                <div class="row">
+                    <div class="col col-3"><b>3.</b></div>
+                    <div class="col col-9">Фосфор, калий и азот необходимо внести под зяблевую вспашку весной. </div>
+                </div>
+                <div class="row" >
+                    <div class="col col-3"><b>4.Возможная дата сбора урожая:</b></div>
+                    <div class="col col-9">7-10 августа.</div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    
+
+
 </body>
 </html>
