@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\WebApplication2",
-    "\\WebApplication2\\Views",
-    "\\WebApplication2\\Views\\Home",
-    "\\WebApplication2\\wwwroot",
-    "\\WebApplication2\\wwwroot\\template\\limitless4",
-    "\\WebApplication2\\wwwroot\\template\\limitless4\\assets"
+    ""
   ],
-  "SelectedNode": "\\WebApplication2\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\AKIS_DEMO.sln",
   "PreviewInSolutionExplorer": false
 }

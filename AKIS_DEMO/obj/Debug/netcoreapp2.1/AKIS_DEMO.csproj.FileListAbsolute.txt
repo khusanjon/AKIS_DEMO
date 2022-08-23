@@ -100,3 +100,38 @@ D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.dll
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.pdb
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.genruntimeconfig.cache
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.csproj.CopyComplete
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.dll
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.pdb
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\wwwroot\data\ekin_turi_pol.geojson
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\libman.json
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.deps.json
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.runtimeconfig.json
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.runtimeconfig.dev.json
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.dll
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.pdb
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.Views.dll
+D:\Geoinformation system\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.Views.pdb
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.csproj.AssemblyReference.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.AssemblyInfoInputs.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.AssemblyInfo.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.csproj.CoreCompileInputs.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.RazorAssemblyInfo.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.RazorAssemblyInfo.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.TagHelpers.input.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.TagHelpers.output.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.RazorCoreGenerate.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.RazorTargetAssemblyInfo.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.RazorTargetAssemblyInfo.cs
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.Views.pdb
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.genruntimeconfig.cache
+D:\Geoinformation system\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.csproj.CopyComplete
