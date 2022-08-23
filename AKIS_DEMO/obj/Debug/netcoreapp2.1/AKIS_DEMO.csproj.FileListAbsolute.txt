@@ -78,6 +78,7 @@ D:\Projeler\BEPRO.AKIS\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.dll
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.pdb
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.Views.dll
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\bin\Debug\netcoreapp2.1\AKIS_DEMO.Views.pdb
+D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.csprojAssemblyReference.cache
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.AssemblyInfoInputs.cache
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.AssemblyInfo.cs
 D:\Projeler\BEPRO.AKIS\AKIS_DEMO\obj\Debug\netcoreapp2.1\AKIS_DEMO.csproj.CoreCompileInputs.cache
