@@ -35,34 +35,48 @@
 </head>
 <body>
     <div>
-        <!--<p style="text-align:right;">Дата съемки дроном: 15 июля 2022 года</p>-->
         <div class="row">
             <hr />
-            <div class="col col-9" style="border: solid 1px lightgray; border-radius: 10px; padding: 5px;">
-                <h6><b>Оценка текущей ситуации</b></h6>
-                <ul class="list-group border-x-0 rounded-0;" style="border:0px;">
-                    <li class="list-group-item">
-                        <span class="font-weight-semibold" style="width: 150px;">Название культуры</span>
-                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">Соя</div>
-                    </li>
+            <div class="col col-6">
+                <div style="border: solid 1px lightgray; border-radius: 10px; padding: 5px; height:100%;">
+                    <h6><b>Оценка текущей ситуации</b></h6>
+                    <ul class="list-group border-x-0 rounded-0;" style="border:0px;">
+                        <li class="list-group-item">
+                            <span class="font-weight-semibold" style="width: 150px;">Название культуры</span>
+                            <div id="col6" class="ml-auto" style="margin-left: 0px !important;">Соя</div>
+                        </li>
 
-                    <li class="list-group-item">
-                        <span class="font-weight-semibold" style="width: 150px;">Сорт</span>
-                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">Zamondosh (Замондош), средне-скороспелый</div>
-                    </li>
-                    <li class="list-group-item">
-                        <span class="font-weight-semibold" style="width: 150px;">Площадь поля</span>
-                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">0,11 Га</div>
-                    </li>
-                    <li class="list-group-item">
-                        <span class="font-weight-semibold" style="width: 150px; ">Фаза вегетации</span>
-                        <div id="col6" class="ml-auto" style="margin-left: 0px !important;">R1 (цветение)</div>
-                    </li>
-                </ul>
+                        <li class="list-group-item">
+                            <span class="font-weight-semibold" style="width: 150px;">Сорт</span>
+                            <div id="col6" class="ml-auto" style="margin-left: 0px !important;">Zamondosh (Замондош), средне-скороспелый</div>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="font-weight-semibold" style="width: 150px;">Площадь поля</span>
+                            <div id="col6" class="ml-auto" style="margin-left: 0px !important;">0,11 Га</div>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="font-weight-semibold" style="width: 150px; ">Фаза вегетации</span>
+                            <div id="col6" class="ml-auto" style="margin-left: 0px !important;">массовое цветение</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
             <div class="col col-3">
-                <div style="border: solid 1px lightgray; border-radius: 10px; padding: 5px;">
-                    <h6>Состояние посевов</h6>
+                <div style="border: solid 1px lightgray; border-radius: 10px; padding: 5px; height:100%;">
+                    <h6><b>Густоты растений</b></h6>
+                    <span style="text-align:left;" class="badge w-100">5- отлично</span>
+                    <span style="text-align:left;" class="badge  w-100">4- хорошо</span>
+                    <span style="text-align:left;" class="badge w-100">3- удовлетворительно</span>
+                    <span style="text-align:left;" class="badge badge-success w-100">2- плохо</span>
+                    <span style="text-align:left;" class="badge w-100">1- очень плохо</span>
+                </div>
+            </div>
+
+            <div class="col col-3">
+                <div style="border: solid 1px lightgray; border-radius: 10px; padding-left: 5px; height:100%;">
+
+                    <h6><b>Состояние посевов</b></h6>
 
                     <span style="text-align:left;" class="badge w-100">5- отлично</span>
                     <span style="text-align:left;" class="badge w-100">4- хорошо</span>
@@ -75,150 +89,149 @@
             <hr />
         </div>
 
-        <div class="row" style="margin-top:1vw;">
-            <div class="col col-12" style="border:solid 1px lightgray; border-radius:5px;">
-                <div class="flex-parent rounded-0">
-                    <div class="input-flex-container">
-                        <div class="input">
-                            <span data-year="1" data-info="посадка"></span>
+            <div class="row" style="margin-top:1vw;">
+                <div class="col col-12" style="border:solid 1px lightgray; border-radius:5px;">
+                    <div class="flex-parent rounded-0">
+                        <div class="input-flex-container">
+                            <div class="input">
+                                <span data-year="1" data-info="посадка"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="2" data-info="прорастание"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="3" data-info="начало бутонизации"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="4" data-info="бутонизация"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="5" data-info="начало цветения"></span>
+                            </div>
+                            <div class="input active">
+                                <span data-year="6" data-info="массовое цветение"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="7" data-info="начало плодоношения"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="8" data-info="конец вегетации"></span>
+                            </div>
+                            <div class="input">
+                                <span data-year="9" data-info="сбор урожая"></span>
+                            </div>
                         </div>
-                        <div class="input">
-                            <span data-year="2" data-info="прорастание"></span>
-                        </div>
-                        <div class="input">
-                            <span data-year="3" data-info="начало бутонизации"></span>
-                        </div>
-                        <div class="input">
-                            <span data-year="4" data-info="бутонизация"></span>
-                        </div>
-                        <div class="input">
-                            <span data-year="5" data-info="начало цветения"></span>
-                        </div>
-                        <div class="input active">
-                            <span data-year="6" data-info="массовое цветение"></span>
-                        </div>
-                        <div class="input">
-                            <span data-year="7" data-info="начало плодоношения"></span>
-                        </div>
-                        <div class="input">
-                            <span data-year="8" data-info="конец вегетации"></span>
-                        </div>
-                        <div class="input">
-                            <span data-year="9" data-info="сбор урожая"></span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:1vw;">
+                <div class="col col-6" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px;">
+                    <h6><b>Проплешины</b></h6>
+
+                    <div class="row">
+
+                        <div class="col col-1"><b>1.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            Состояние посевов на делянке плохое, наблюдается значительная неравномерность развития. Посевы находятся в сильном угнетении, не развиваются и значительно отстают росте.
                         </div>
                     </div>
 
+                    <div class="row">
+
+                        <div class="col col-1"><b>2.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            В северной части поля (Рис.11) культура не развивается, проблемная площадь составляет около 0,023 Га или 22% от площади поля (Зона А). Причина должна быть выяснена специалистом на месте.
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col col-1"><b>3.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            Остальная часть посевов  недоразвиты, площадь листовой поверхности незначительная и должна быть намного больше.
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col col-1"><b>4.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            В северной части поля (Рис.12) на площади 0,02 Га или 21% от площади поля наблюдается дефицит азота 15-20% от нормы (Зона В).
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col col-1"><b>5.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            Участок на юге (Рис.11) размером 0,018 Га или 17% ((Зона D) от площади поля содержит посевы с хорошим развитием и показателями.
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col col-1"><b>6.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            В целом данные воздушного мониторинга указывают на очень плохое, угнетённое состояние растительности на поле.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col col-1"><b>7.</b></div>
+                        <div class="col col-11" style="text-align:justify;">
+                            Посевы сильно угнетены и ослаблены, часть растений были заражены болезнью.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-5" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px; margin-left:2vw;">
+                    <h6><b>Индексы</b></h6>
+                    <div class="row" style="">
+                        <div class="col col-6" style="text-align:center;"> <img src="../images/zona_8A.png" alt="Зона A" style="width:80%;"></br>Рис. 11</div>
+                        <div class="col col-6" style="text-align:center;"> <img src="../images/zona_8B.png" alt="Зона B" style="width:80%;"></br>Рис. 12</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px; margin-top:1vw;">
+
+                <div class="col col-12">
+                    <h6><b>Рекомендации</b></h6>
+                    
+                    <div class="row">
+                        <div class="col col-1"><b>1.</b></div>
+                        <div class="col col-11">До сбора урожая не проводить мероприятий по внесению калия, фосфора, азота и средств по борьбе с сорняками. </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col col-1"><b>2.</b> </div>
+                        <div class="col col-11">После сбора урожая провести мониторинг поля для составления карты дифференцированного внесения удобрений для подготовки почвы к следующему посеву. </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-1">
+                            <b>3.</b>
+                        </div>
+                        <div class="col col-11">
+                            Осенью после сбора урожая необходимо внести до 50% от нормы азотных удобрений.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-1">
+                            <b>4.</b>
+                        </div>
+                        <div class="col col-11">
+                            Весной обогатить почву серой путем внесения сульфата аммония.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-1"><b>5.</b></div>
+                        <div class="col col-11">Возможная дата сбора урожая: 18-20 августа.</div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="row" style="margin-top:1vw;">
-            <div class="col col-12" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px;">
-                <h6><b>Проплешины</b></h6>
-
-                <div class="row" style="margin-top:1vw;">
-                    <div class="col col-1"><b>1.</b></div>
-                    <div class="col col-11" style="text-align:justify;">
-                      Состояние посевов на делянке плохое, наблюдается значительная неравномерность развития. Посевы находятся в сильном угнетении, не развиваются и значительно отстают росте.
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:1vw;">
-                    <div class="col col-1"><b>2.</b></div>
-                    <div class="col col-11" style="text-align:justify;">
-                      В северной части поля (Рис.11) культура не развивается, проблемная площадь составляет около 0,023 Га или 22% от площади поля (Зона А). Причина должна быть выяснена специалистом на месте.
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:1vw;">
-                    <div class="col col-1"><b>3.</b></div>
-                    <div class="col col-11" style="text-align:justify;">
-                      Остальная часть посевов  недоразвиты, площадь листовой поверхности незначительная и должна быть намного больше.
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:1vw;">
-                    <div class="col col-1"><b>4.</b></div>
-                    <div class="col col-11" style="text-align:justify;">
-                      В северной части поля (Рис.12) на площади 0,02 Га или 21% от площади поля наблюдается дефицит азота 15-20% от нормы (Зона В).
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:1vw;">
-                    <div class="col col-1"><b>5.</b></div>
-                    <div class="col col-11" style="text-align:justify;">
-                      Участок на юге (Рис.11) размером 0,018 Га или 17% ((Зона D) от площади поля содержит посевы с хорошим развитием и показателями.
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:1vw;">
-                  <div class="col col-1"><b>6.</b></div>
-                  <div class="col col-11" style="text-align:justify;">
-                    В целом данные воздушного мониторинга указывают на очень плохое, угнетённое состояние растительности на поле.
-                  </div>
-                </div>
-
-                <div class="row" style="margin-top:1vw;">
-                  <div class="col col-1"><b>7.</b></div>
-                  <div class="col col-11" style="text-align:justify;">
-                    Посевы сильно угнетены и ослаблены, часть растений были заражены болезнью.
-                  </div>
-              </div>
-            </div>
-            
-        </div>
-        
-        <div class="row" style="margin-top:1vw;">  
-          <div class="col col-12" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px; margin-left:2vw;">
-              <h6><b>Индексы</b></h6> 
-               <p>Дата съемки дроном: 15 июля 2022 года</p>
-                <div class="row" style="">
-                     <div class="col col-6" style="text-align:center;"> <img src="../images/zona_8A.png" alt="Зона A" style="width:90%;">Рис. 11</div>
-                    <div class="col col-6" style="text-align:center;"> <img src="../images/zona_8B.png" alt="Зона B" style="width:90%;">Рис. 12</div>
-               </div>
-           </div>
-        </div>     
-
-        <div class="row" style="border: solid 1px lightgray; border-radius: 10px; padding: 10px; margin-top:1vw;">
-
-            <div class="col col-12">
-                <h6><b>Рекомендации</b></h6>
-
-
-                <div class="row">
-                    <div class="col col-3"><b>1.</b></div>
-                    <div class="col col-9">До сбора урожая не проводить мероприятий по внесению калия, фосфора, азота и средств по борьбе с сорняками. </div>
-                </div>
-                <div class="row">
-
-                    <div class="col col-3"><b>2.</b> </div>
-                    <div class="col col-9">После сбора урожая провести мониторинг поля для составления карты дифференцированного внесения удобрений для подготовки почвы к следующему посеву. </div>
-                </div>
-                <div class="row">
-                    <div class="col col-3">
-                        <b>3.</b>
-                    </div>
-                    <div class="col col-9">
-                      Осенью после сбора урожая необходимо внести до 50% от нормы азотных удобрений.
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="col col-3">
-                      <b>4.</b>
-                  </div>
-                  <div class="col col-9">
-                    Весной обогатить почву серой путем внесения сульфата аммония.
-                  </div>
-              </div>
-                <div class="row">
-                    <div class="col col-3"><b>5.Возможная дата сбора урожая:</b></div>
-                    <div class="col col-9">18-20 августа.</div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
 </body>
 </html>
